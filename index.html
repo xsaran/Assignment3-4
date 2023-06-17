@@ -1,0 +1,47 @@
+<!-- 
+Name: Sarandeep Singh
+ID: C0888634
+Currency Converter
+ -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <h1>US doller to Canadian Dollar</h1>
+      <h2>Convert USD to CAD at Real exchange rate</h2>
+    </div>
+
+    <div class="input-container">
+      <div class="input-container1">
+        <input type="number" id="usdInput" placeholder="Enter amount" />
+        <label for="usdInput">USD:</label>
+        <p style="font-size: 1.5rem;">USD</p>
+        <img
+          src="usd.png"
+          height="50px"
+          width="80px"
+        />
+      </div>
+      <div class="input-container2">
+        <input type="number" id="cadInput" placeholder="Enter amount" />
+        <label for="cadInput">CAD:</label>
+        <p style="font-size: 1.5rem;">CAD</p>
+        <img
+          src="cad.png"
+          height="50px"
+          width="80px"
+        />
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button onclick="convertCurrency()">Convert</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
